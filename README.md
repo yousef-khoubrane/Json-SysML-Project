@@ -4,7 +4,7 @@
 
 This repository hosts the project page for **Json-SysML**, a compact, AI-oriented representation of SysML v1 models designed to support Large Language Model integration in Model-Based Systems Engineering workflows.
 
-The work is associated with a paper submitted to [**MODELS 2026**](https://conf.researchr.org/home/models-2026). This page will be updated with links to the published paper and the source-code repository once they become publicly available.
+**[Paper](https://doi.org/10.1145/3822455.3830325)** · **[Source code](https://github.com/yousef-khoubrane/Json-SysML)** · **[Interactive syntax reference](./Json-SysML_Syntax.html)**
 
 ## Overview
 
@@ -23,16 +23,48 @@ Experimental results reported in the paper show an average token-count reduction
 
 **Conference:** ACM/IEEE 29th International Conference on Model Driven Engineering Languages and Systems ([MODELS 2026](https://conf.researchr.org/home/models-2026))
 
-**Paper title:**
+**Paper title:**  
 *Json-SysML: A Bidirectional JSON-Based Representation for SysML Models Enabling LLM-Augmented Model-Based Systems Engineering*
 
-The paper link will be added here once the publication becomes available.
+**Pages:** 69–79  
+**DOI:** [10.1145/3822455.3830325](https://doi.org/10.1145/3822455.3830325)
+
+### Citation
+
+If you use Json-SysML in your research, please cite:
+
+```bibtex
+@inproceedings{10.1145/3822455.3830325,
+    author = {Khoubrane, Yousef and Elhadji Ille Gado, Nassara and Li, Rui and Danlos, Helene and Bureau, Nicolas and Benmiloud Bechet, Lies and Plana, Robert and Vazirgiannis, Michalis},
+    title = {Json-SysML: A Bidirectional JSON-Based Representation for SysML Models Enabling LLM-Augmented Model-Based Systems Engineering},
+    booktitle = {Proceedings of the ACM/IEEE 29th International Conference on Model Driven Engineering Languages and Systems},
+    year = {2026},
+    publisher = {Association for Computing Machinery},
+    pages = {69--79},
+    doi = {10.1145/3822455.3830325},
+    url = {https://doi.org/10.1145/3822455.3830325},
+    series = {MODELS '26}
+}
+```
 
 ## Source Code
 
-The Json-SysML implementation and conversion pipeline are being prepared for public release.
+The implementation is available in the [**Json-SysML repository**](https://github.com/yousef-khoubrane/Json-SysML).
 
-The source-code repository link will be added here once the implementation is published.
+The repository includes:
+
+* the XMI-to-Json-SysML and Json-SysML-to-XMI conversion pipelines for CATIA Magic;
+* installation instructions and conversion options;
+* example models;
+* scripts and instructions for reproducing the paper’s evaluation.
+
+## Syntax Reference
+
+The [**interactive syntax reference**](./Json-SysML_Syntax.html) documents the model structure, nine supported diagram types, element definitions, and field conventions.
+
+Use the explorer to inspect fields, select diagrams to include in a model, and copy or download a JSON template. Edit the exported template to replace placeholders and make identifiers and references consistent.
+
+The reference is self-contained and can also be downloaded and opened locally.
 
 ## Authors
 
@@ -69,7 +101,6 @@ The source-code repository link will be added here once the implementation is pu
   DaSciM, LIX, École Polytechnique<br>
   ORCID: [0000-0001-5923-4440](https://orcid.org/0000-0001-5923-4440)
 
-
 ## Affiliations
 
 * **Data Science and Mining Team (DaSciM), Computer Science Laboratory (LIX), École Polytechnique, Institut Polytechnique de Paris**, Palaiseau, France
@@ -86,12 +117,3 @@ For questions about the project, contact:
 **Yousef Khoubrane**<br>
 [ykhoubrane@assystem.com](mailto:ykhoubrane@assystem.com)<br>
 [khoubrane@lix.polytechnique.fr](mailto:khoubrane@lix.polytechnique.fr)
-
-## Updates
-
-This page will be updated as the project progresses, including:
-
-* the official paper link;
-* the source-code repository;
-* schema documentation;
-* citation information.
