@@ -4,7 +4,7 @@
 
 This repository hosts the project page for **Json-SysML**, a compact, AI-oriented representation of SysML v1 models designed to support Large Language Model integration in Model-Based Systems Engineering workflows.
 
-**[Paper](https://doi.org/10.1145/3822455.3830325)** · **[Source code](https://github.com/yousef-khoubrane/Json-SysML)** · **[Interactive syntax reference](./Json-SysML_Syntax.html)**
+**[Paper](https://doi.org/10.1145/3822455.3830325)** · **[Source code](https://github.com/yousef-khoubrane/Json-SysML)** · **[Paper code snapshot (Zenodo)](https://doi.org/10.5281/zenodo.23317739)** · **[Interactive syntax reference](./Json-SysML_Syntax.html)**
 
 ## Overview
 
@@ -31,7 +31,9 @@ Experimental results reported in the paper show an average token-count reduction
 
 ### Citation
 
-If you use Json-SysML in your research, please cite:
+To cite the Json-SysML paper, use the following reference:
+
+#### Paper
 
 ```bibtex
 @inproceedings{10.1145/3822455.3830325,
@@ -47,9 +49,28 @@ If you use Json-SysML in your research, please cite:
 }
 ```
 
+#### Software snapshot
+
+If you use the Json-SysML code in your work, please also cite the software snapshot using its Zenodo DOI. The **v0.1.0** release is the archived snapshot of the code used to produce the results reported in the paper.
+
+**DOI:** [10.5281/zenodo.23317739](https://doi.org/10.5281/zenodo.23317739)
+
+```bibtex
+@software{yousef_khoubrane_2026_23317739,
+    author = {yousef-khoubrane},
+    title = {yousef-khoubrane/Json-SysML: Json-SysML v0.1.0 — Initial release},
+    month = oct,
+    year = {2026},
+    publisher = {Zenodo},
+    version = {v0.1.0},
+    doi = {10.5281/zenodo.23317739},
+    url = {https://doi.org/10.5281/zenodo.23317739}
+}
+```
+
 ## Source Code
 
-The implementation is available in the [**Json-SysML repository**](https://github.com/yousef-khoubrane/Json-SysML).
+The implementation is available in the [**Json-SysML repository**](https://github.com/yousef-khoubrane/Json-SysML). For the exact code version used in the paper, use the [**v0.1.0 snapshot archived on Zenodo**](https://doi.org/10.5281/zenodo.23317739).
 
 The repository includes:
 
